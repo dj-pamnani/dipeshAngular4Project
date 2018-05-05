@@ -1,0 +1,7 @@
+<p>
+  Please select any food item:
+</p>
+<div>
+  <input type="text" id="foodName" #foodName >
+</div>
+<food-dashboard [foodType]="foodTyp" (myOutputData)="getFoodDashData($event)"></food-dashboard>
